@@ -24,7 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        if(auth()->user()->user_type == 'admin'){
+        if(Gate::allows('isAdmin') ){
         $users = User::where('user_type','user')->get();
         return view('home')->with('users',$users);
         }else{
