@@ -1,0 +1,129 @@
+.header-address-main{
+    padding-top: 20px;
+}
+.header-address{
+    text-align: right;
+}
+.header-address h3{
+    font-size: 22px;
+    /* color: #263c98; */
+    font-weight: 700;
+}
+.header-address p{
+    font-size: 14px;
+    /* color: #505050; */
+}
+.body-refer{
+    margin-top: 40px;
+}
+.body-refer h5{
+    font-size: 16px;
+}
+.body-refer h5 strong{
+    font-size: 16px;
+}
+.body-refer-right{
+    text-align: right;
+}
+.table .thead-dark th {
+    color: #fff;
+    /* background-color: #0051a3;
+    border-color: #0051a3; */
+}
+.table-sec table{
+    margin-top: 60px;
+}
+.subject-sec h5{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: underline;
+    color: #2d2d2d;
+}
+.div-vis-hid{
+    visibility: hidden;
+}
+.table-total{
+    margin-top: 5px !important;
+}
+.table-total th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: none;
+    border-right: 1px solid #dee2e6;
+    text-align: right;
+}
+.table-total th:nth-last-child() {
+    border-right: none;
+}
+.table-total td {
+    border-top: none;
+}
+tr th{
+    font-size: 14px;
+}
+tr td{
+    font-size: 14px;
+}
+.table-total th{
+    font-weight: 400;
+}
+tr .last-of-total-table{
+    font-weight: 700;
+    /* color: #263c98; */
+}
+.en-grid-main{
+    margin-top: 45px;
+}
+.main-head-of-grid{
+    /* background-color: #dadbe8; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #212529;
+    text-transform: uppercase;    
+    padding-left: 0px;
+}
+.main-head-of-grid h5{
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.sub-head-of-grid{
+    /* background-color: #f4f5f7; */
+    padding: 40px 20px;
+}
+.table-grid-one tbody tr th{
+    text-align: left;
+    width: 20%;
+    border-right: none;
+}
+.table-grid-one{
+    margin-left: 40px;
+}
+.table-grid-one tbody tr td{
+    font-weight: 700;
+    color: #5d5d5d;
+}
+.sub-head-of-grid ul li{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.en-divider-bw-table{
+    height: 2px;
+    background-color: #212529;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.to-address{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.note-bottom{
+    font-size: 14px;
+}
+
+
+.page-break {
+    page-break-after: always;
+}

@@ -1,0 +1,219 @@
+ body {
+		background-color:f2f2f2;
+		background-image:url("../img/login-banner.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		
+	}
+.main-bg{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+		
+}
+.modal-login {
+		width: 350px;
+	}
+	.modal-login .modal-content {
+		border-radius: 5px;
+		border: none;
+		margin-top: 95px;
+		color: #999;
+		border-radius: 8px;
+    	margin-bottom: 15px;
+        background: #fff;
+		border: 1px solid #f3f3f3;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 25px;
+	}
+	.modal-login .modal-header {
+		border-bottom: none;
+        position: relative;
+		justify-content: center;
+	}
+	.modal-login .close {
+        position: absolute;
+		top: -10px;
+		right: -10px;
+	}
+	.modal-login h4 {
+		color: #636363;
+		text-align: center;
+		font-size: 26px;
+		margin-top: 0;
+	}
+	.modal-login .form-group {
+		margin-bottom: 20px;
+	}
+	.modal-login label {
+		font-weight: normal;
+		font-size: 13px;
+	}
+	.modal-login .form-group .input-group .form-control {
+		min-height: 38px;
+		/* border-width: 0 0 1px 0; */
+		box-shadow: none !important;
+		border-radius: 50px;
+	}
+	.modal-login .form-group .input-group .form-control::placeholder{
+		font-size: 12px;
+	}
+	.modal-login .form-control:focus {
+		border-color: #ccc;
+	}
+	.modal-login .input-group-addon {
+		max-width: 42px;
+		text-align: center;
+		background: none;
+		border-width: 0 0 1px 0;
+		padding-left: 5px;
+		border-radius: 0;
+	}
+    .modal-login .btn {        
+        font-size: 16px;
+        font-weight: bold;
+		/* background: #4ba4cf; */
+		background: #1958aa;
+        border-radius: 50px;
+		border: none;
+		min-width: 140px;
+        outline: none !important;
+    }
+	.modal-login .btn:hover, .modal-login .btn:focus {
+		background: #1958aa;
+	}
+	.modal-login .hint-text {
+		text-align: center;
+		padding-top: 5px;
+		font-size: 13px;
+	}
+	.modal-login .modal-footer {
+		color: #999;
+		border-color: #dee4e7;
+		text-align: center;
+		margin: 0 -25px -25px;
+		font-size: 13px;
+		justify-content: center;
+	}
+	.modal-login a {
+		color: #fff;
+		text-decoration: underline;
+	}
+	.modal-login a:hover {
+		text-decoration: none;
+	}
+	.modal-login a {
+		color: #1958aa;
+		text-decoration: none;
+	}	
+	.modal-login a:hover {
+		text-decoration: underline;
+	}
+	.modal-login .fa {
+		font-size: 21px;
+	}
+	
+	.btn-group-lg>.btn, .btn-lg{
+		padding: 8px 16px;
+	}
+	
+	
+	.modal-login {
+    width: 350px;
+    position: absolute;
+    top: 10%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body {
+    background-image: url(../img/login-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 275px;
+}
+.bodybg-color{
+	    background-color: #f2f2f2 !important;
+}
+
+.footer-copyright{
+	position: absolute;
+    min-width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+.login-form .form-group .input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    min-width: 100%;
+}
+/* UPDATED 25032019 */
+
+@media only screen and (max-width: 480px) {
+.modal-login {
+    width: 350px;
+    position: absolute;
+    top: 10%;
+    left: 11%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    right: 30px;
+}
+}
+@media only screen and (max-width: 420px) {
+.footer-copyright {
+        margin-left: 0px;
+}
+.modal-login {
+    width: 350px;
+    left: 7%;
+    right: 30px;
+}
+}
+@media only screen and (max-width: 380px) {
+.modal-login {
+    top: 5%;
+    left: 1%;
+}
+}
+@media only screen and (max-width: 360px) {
+.modal-login {
+    width: 330px;
+    top: 5%;
+    left: 2%;
+}
+}
+@media only screen and (max-width: 340px) {
+.modal-login {
+    width: 330px;
+    top: 5%;
+    left: 2%;
+}
+.modal-login {
+    top: 5%;
+    left: 0%;
+    right: 0;
+    padding: 5px 15px;
+    margin: 0 auto;
+}
+}
+@media only screen and (max-width: 340px) {
+.modal-login {
+    width: 320px;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    right: 0;
+    padding: 5px 15px;
+    margin: 0 auto;
+}
+}
+	
+ .footer-copyright {
+    margin: 0 auto;
+}
